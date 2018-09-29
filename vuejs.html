@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Vue js</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  <div class="deneme-kontrol">Deneme Kontrol</div>
-  <p>Bu commit ile atom ile github bağlantısı kurdum</p>
+    <div id="app">
+      <h1>Merhaba Dünya</h1>
+      <input type="text" id="text" v-model="text">
+      <p id="yazilanmetin">{{text}} </p>
+    </div>
+
+    <script src="js/vue.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
